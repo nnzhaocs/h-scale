@@ -1,0 +1,1 @@
+mdadm -A /dev/md0 /dev/sd[b-g]1

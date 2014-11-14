@@ -1,0 +1,1 @@
+mdadm -Cv /dev/md0 -l5 -pleft-asymmetric -c64 -n4 /dev/sd[b-e]1 -x2 /dev/sd[fg]1

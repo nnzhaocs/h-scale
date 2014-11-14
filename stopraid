@@ -1,0 +1,1 @@
+mdadm -S /dev/md0;rmmod raid456;

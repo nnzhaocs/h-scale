@@ -1,0 +1,3 @@
+#!/bin/sh
+cp -f raid456.ko /lib/modules/$(uname -r)/kernel/drivers/md 
+#cp raid456.ko /lib/modules/2.6.23.1-42.fc8/kernel/drivers/md -f
